@@ -5,8 +5,8 @@ on:
 
 jobs:
   test-js-action:
-    runs-on: ubuntu-latest
     name: A job to test the js action
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: ./

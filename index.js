@@ -6,7 +6,7 @@ async function run() {
     const firstNumber = core.getInput("number1");
     const secondNumber = core.getInput("number2");
 
-    const result = parseInt(firstparseInt) + Number(secondNumber);
+    const result = parseInt(firstNumber) + parseInt(secondNumber);
     core.setOutput("result", result);
 
   } catch (error) {
